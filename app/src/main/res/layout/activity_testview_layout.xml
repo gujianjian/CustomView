@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.joy.customview.view.test.HuaDongView
+        android:clickable="true"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="button1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:text="button2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="button3" />
+    </com.example.joy.customview.view.test.HuaDongView>
+</LinearLayout>

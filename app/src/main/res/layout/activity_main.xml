@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+<!--<com.example.joy.customview.view.TitleBar-->
+    <!--android:visibility="gone"-->
+    <!--android:id="@+id/mTitleBar"-->
+    <!--app:titlebar_bg="@android:color/holo_blue_light"-->
+    <!--app:title_text_color="@android:color/holo_orange_dark"-->
+    <!--app:title_text="我是顾尖尖"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"/>-->
+
+    <!--<com.example.joy.customview.view.MyTextView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@android:color/holo_blue_light"-->
+        <!--android:gravity="center"-->
+        <!--android:text="顾尖尖" />-->
+
+    <!--<com.example.joy.customview.view.CustomView-->
+        <!--android:clickable="true"-->
+        <!--android:background="@android:color/holo_orange_dark"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp" />-->
+
+    <com.example.joy.customview.view.ScrollerTestView
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <!--<com.example.joy.customview.view.RectView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="#ffff00"-->
+        <!--app:rect_color="@android:color/holo_green_light"-->
+        <!--/>-->
+</LinearLayout>
